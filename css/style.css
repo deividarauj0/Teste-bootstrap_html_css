@@ -1,0 +1,36 @@
+
+body {
+    display: flex;
+}
+
+.menu_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    background-color: #f8f6f6;
+}
+
+.login_pesquisar {
+    display: flex;
+    gap: 3rem;
+}
+
+.imgContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.ContainerPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.img_post {
+    width: 100%;
+    height: 520px;
+    margin-top: 1rem;
+    object-fit: cover;
+}
